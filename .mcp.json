@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sadasend": {
+      "type": "http",
+      "url": "https://mcp.sadasend.com",
+      "headers": {
+        "Authorization": "Bearer ${SADASEND_API_KEY}"
+      }
+    }
+  }
+}

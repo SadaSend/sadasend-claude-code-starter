@@ -1,0 +1,29 @@
+{
+  "name": "sadasend-claude-code-starter",
+  "version": "1.0.0",
+  "description": "Production Anthropic Claude Code CLI starter kit with SadaSend MCP tools and safety perimeter",
+  "type": "module",
+  "main": "src/verify-deliverability.ts",
+  "scripts": {
+    "start": "bun run src/verify-deliverability.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "mcp",
+    "model-context-protocol",
+    "transactional-email",
+    "sadasend",
+    "spendguard"
+  ],
+  "author": "SadaSend (https://www.sadasend.com)",
+  "license": "MIT",
+  "dependencies": {
+    "sadasend": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
